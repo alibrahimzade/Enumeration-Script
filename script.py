@@ -114,12 +114,12 @@ def main():
 
     print(f"[*] Results saved to {filename}")
 
-    try:
-        print(final_data)
-        r = requests.post("http://localhost:8000/api/enumeration", json=final_data)
-        print("[*] POST to dashboard response:", r.status_code)
-    except ImportError:
-        print("[!] Requests not installed, skipping POST.")
+    # try:
+    #     print(final_data)
+    #     r = requests.post("http://localhost:8000/api/enumeration", json=final_data)
+    #     print("[*] POST to dashboard response:", r.status_code)
+    # except ImportError:
+    #     print("[!] Requests not installed, skipping POST.")
 
     return final_data
 
