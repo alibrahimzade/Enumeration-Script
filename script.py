@@ -24,15 +24,26 @@ def get_local_subnets():
                 subnets.append(cidr)
     return subnets
 
-# Ping sweep using subprocess
+# # Ping sweep using subprocess
+# def find_live_hosts(subnet):
+#     print(f"[*] Scanning subnet: {subnet}")
+#     result = subprocess.getoutput(f"nmap -sn {subnet}")
+#     hosts = []
+#     for line in result.splitlines():
+#         if "Nmap scan report for" in line:
+#             ip = line.split()[-1]
+#             hosts.append(ip)
+#     return 
 def find_live_hosts(subnet):
     print(f"[*] Scanning subnet: {subnet}")
     result = subprocess.getoutput(f"nmap -sn {subnet}")
+    print("[DEBUG] Nmap output:\n", result)  # Add this
     hosts = []
     for line in result.splitlines():
         if "Nmap scan report for" in line:
             ip = line.split()[-1]
             hosts.append(ip)
+    print(f"[DEBUG] Found live hosts: {hosts}")  # Add this
     return hosts
 
 # Detailed scan per host using nmap
@@ -43,7 +54,7 @@ def scan_host(ip):
     info = {
         "ip": ip,
         "hostname": scanner[ip].hostname() if 'hostname' in scanner[ip] else "",
-        "os": scanner[ip]['osmatch'][0]['name'] if scanner[ip].has_key('osmatch') and scanner[ip]['osmatch'] else "Unknown",
+        "os": scanner[ip]['osmatch'][0]['name'] if 'osmatch' in scanner[ip] and scanner[ip]['osmatch'] else "Unknown",
         "ports": [],
         "tags": []
     }
