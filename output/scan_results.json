@@ -1,0 +1,243 @@
+[
+  {
+    "os": "Unknown",
+    "ip": "192.168.50.127",
+    "resolved_name": "Unresolved",
+    "ports": [],
+    "screenshot": "Playwright not installed"
+  },
+  {
+    "os": "Unknown",
+    "ip": "192.168.50.109",
+    "resolved_name": "Unresolved",
+    "ports": [],
+    "screenshot": "Playwright not installed"
+  },
+  {
+    "os": "Unknown",
+    "ip": "192.168.50.80",
+    "resolved_name": "Unresolved",
+    "ports": [],
+    "screenshot": "Playwright not installed"
+  },
+  {
+    "os": "Unknown",
+    "ip": "192.168.50.11",
+    "resolved_name": "Unresolved",
+    "ports": [
+      {
+        "port": 135,
+        "protocol": "tcp",
+        "service": "msrpc",
+        "version": "unknown"
+      },
+      {
+        "port": 139,
+        "protocol": "tcp",
+        "service": "netbios-ssn",
+        "version": "unknown"
+      },
+      {
+        "port": 389,
+        "protocol": "tcp",
+        "service": "ldap",
+        "version": "unknown"
+      },
+      {
+        "port": 445,
+        "protocol": "tcp",
+        "service": "microsoft-ds",
+        "version": "unknown"
+      },
+      {
+        "port": 464,
+        "protocol": "tcp",
+        "service": "kpasswd5",
+        "version": "unknown"
+      },
+      {
+        "port": 593,
+        "protocol": "tcp",
+        "service": "ncacn_http",
+        "version": "1.0"
+      },
+      {
+        "port": 636,
+        "protocol": "tcp",
+        "service": "tcpwrapped",
+        "version": "unknown"
+      }
+    ],
+    "screenshot": "Playwright not installed",
+    "error": "'NoneType' object has no attribute 'attrib'"
+  },
+  {
+    "os": "Unknown",
+    "ip": "192.168.50.126",
+    "resolved_name": "Unresolved",
+    "ports": [],
+    "screenshot": "Playwright not installed"
+  },
+  {
+    "os": "Unknown",
+    "ip": "192.168.50.178",
+    "resolved_name": "Unresolved",
+    "ports": [],
+    "screenshot": "Playwright not installed"
+  },
+  {
+    "os": "Unknown",
+    "ip": "192.168.50.91",
+    "resolved_name": "AKMPC060",
+    "ports": [
+      {
+        "port": 135,
+        "protocol": "tcp",
+        "service": "msrpc",
+        "version": "unknown"
+      },
+      {
+        "port": 139,
+        "protocol": "tcp",
+        "service": "netbios-ssn",
+        "version": "unknown"
+      },
+      {
+        "port": 445,
+        "protocol": "tcp",
+        "service": "microsoft-ds",
+        "version": "unknown"
+      },
+      {
+        "port": 903,
+        "protocol": "tcp",
+        "service": "vmware-auth",
+        "version": "1.10"
+      },
+      {
+        "port": 913,
+        "protocol": "tcp",
+        "service": "vmware-auth",
+        "version": "1.0"
+      }
+    ],
+    "screenshot": "Playwright not installed",
+    "error": "'NoneType' object has no attribute 'attrib'"
+  },
+  {
+    "os": "Unknown",
+    "ip": "192.168.50.115",
+    "resolved_name": "Unresolved",
+    "ports": [
+      {
+        "port": 3000,
+        "protocol": "tcp",
+        "service": "http",
+        "version": "unknown"
+      }
+    ],
+    "screenshot": "Playwright not installed"
+  },
+  {
+    "os": "Unknown",
+    "ip": "192.168.50.190",
+    "resolved_name": "Unresolved",
+    "ports": [
+      {
+        "port": 8888,
+        "protocol": "tcp",
+        "service": "http",
+        "version": "0.6"
+      }
+    ],
+    "screenshot": "Playwright not installed"
+  },
+  {
+    "os": "Unknown",
+    "ip": "192.168.50.106",
+    "resolved_name": "AKMPC097",
+    "ports": [
+      {
+        "port": 135,
+        "protocol": "tcp",
+        "service": "msrpc",
+        "version": "unknown"
+      },
+      {
+        "port": 139,
+        "protocol": "tcp",
+        "service": "netbios-ssn",
+        "version": "unknown"
+      },
+      {
+        "port": 445,
+        "protocol": "tcp",
+        "service": "microsoft-ds",
+        "version": "unknown"
+      },
+      {
+        "port": 903,
+        "protocol": "tcp",
+        "service": "vmware-auth",
+        "version": "1.10"
+      },
+      {
+        "port": 913,
+        "protocol": "tcp",
+        "service": "vmware-auth",
+        "version": "1.0"
+      }
+    ],
+    "screenshot": "Playwright not installed",
+    "error": "'NoneType' object has no attribute 'attrib'"
+  },
+  {
+    "os": "Unknown",
+    "ip": "192.168.50.202",
+    "resolved_name": "Unresolved",
+    "ports": [],
+    "screenshot": "Playwright not installed"
+  },
+  {
+    "os": "Unknown",
+    "ip": "192.168.50.254",
+    "resolved_name": "Unresolved",
+    "ports": [
+      {
+        "port": 135,
+        "protocol": "tcp",
+        "service": "msrpc",
+        "version": "unknown"
+      },
+      {
+        "port": 139,
+        "protocol": "tcp",
+        "service": "netbios-ssn",
+        "version": "unknown"
+      },
+      {
+        "port": 445,
+        "protocol": "tcp",
+        "service": "microsoft-ds",
+        "version": "unknown"
+      }
+    ],
+    "screenshot": "Playwright not installed",
+    "error": "'NoneType' object has no attribute 'attrib'"
+  },
+  {
+    "os": "Unknown",
+    "ip": "192.168.50.242",
+    "resolved_name": "Unresolved",
+    "ports": [
+      {
+        "port": 111,
+        "protocol": "tcp",
+        "service": "rpcbind",
+        "version": "2-4"
+      }
+    ],
+    "screenshot": "Playwright not installed",
+    "error": "'NoneType' object has no attribute 'attrib'"
+  }
+]
