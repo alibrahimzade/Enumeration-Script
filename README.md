@@ -28,9 +28,9 @@ This Python tool performs multi-phase network scanning using **Nmap**, detects l
 1. **Clone the repository**  
    ```bash
    git clone https://github.com/your-username/network-enumeration.git
-   cd network-enumeration
 
 
 
 pip install -r requirements.txt
-playwright install
+
+python .\script.py
